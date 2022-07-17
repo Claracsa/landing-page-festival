@@ -1,0 +1,31 @@
+* { /*global*/
+    font-family: 'Oswald', sans-serif;
+    color: #2C3333;
+}
+
+header{
+    display: flex;
+    border: 2px solid pink;
+    max-height: 100px;
+    align-items: center;
+    color: #d1fdff;
+    align-content: space-between;
+}
+
+.image-background{
+    display: block;
+    width: 100%;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.gradiente{
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+
+.footer{
+    background-color: #fddb92;
+    height: 200px;
+}
