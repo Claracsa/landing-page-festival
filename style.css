@@ -7,7 +7,7 @@
 
 .container{
     display: flex;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     width: 100%;
 }
@@ -18,13 +18,13 @@ ul{
     padding: 0;
 }
 
-ul li a {
+li a{
     text-decoration: none;
 }
 
 header{
     background-color: #d1fdff;
-    height: 60px;
+    height: 50px;
     display: flex;
     align-items: center;
 }
@@ -43,14 +43,20 @@ header .menu{
 
 
 h1{
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.image-background{
+    position: static;
+    width: 100%;
+    height: auto;
 }
 
 .gradiente{
     background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
 }
 
-.footer{
+.footer{ 
     background-color: #fddb92;
     height: 200px;
 }
